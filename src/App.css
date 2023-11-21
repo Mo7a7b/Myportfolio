@@ -1,0 +1,94 @@
+#media {
+  transition: all .3s;
+  margin-top: 20px;
+}
+
+@media screen and (max-width:600px) {
+  #main h1 {
+    font-size: 21px !important;
+  }
+
+  #main h2 {
+    font-size: 17px !important;
+  }
+
+  #main label {
+    scale: 0.8;
+  }
+
+}
+
+@media screen and (max-width:780px) {
+  #filt {
+    flex-direction: row !important;
+    width: 80vw !important;
+    bottom: 112px !important;
+    position: relative !important;
+    height: fit-content !important;
+    background: none !important;
+    margin: 30% 70% !important;
+  }
+
+  #pros {
+    margin-bottom: 80px;
+  }
+
+  #ards {
+    position: relative !important;
+    right: 25px !important;
+  }
+
+  #htm {
+    position: relative;
+    top: 5px;
+  }
+
+  #htm button,
+  #ja button,
+  #re button {
+    width: max-content;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width:574px) {
+  #filt {
+    scale: 0.7 !important;
+  }
+}
+
+@media screen and (max-width:410px) {
+  #filt {
+    scale: 0.6 !important;
+  }
+}
+
+#ard {
+  transition: all .5s;
+}
+
+#ard:hover {
+  rotate: 5deg;
+  border: 1px solid blue;
+}
+
+#al {
+  color: goldenrod !important;
+  margin-left: 10px;
+  transition: all .3s;
+}
+
+#al:hover {
+  border-bottom: 1px solid goldenrod;
+  scale: 1.03;
+}
+
+@media screen and (max-width:600px) {
+  #alls {
+    scale: 0.8;
+  }
+
+  #ps {
+    font-size: 11px;
+  }
+}
